@@ -21,7 +21,7 @@ public class PraktikumActivity extends AppCompatActivity {
     public void handleClickHandstandFragment(View view){
         FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
         if (getSupportFragmentManager().findFragmentByTag("PRAKTIKUM_FRAGMENT") != null) {
-            fragmentTransaction.setCustomAnimations(R.anim.enter_from_left, R.anim.exit_from_left, R.anim.enter_from_left, R.anim.exit_from_left);
+//            fragmentTransaction.setCustomAnimations(R.anim.enter_from_left, R.anim.exit_from_left, R.anim.enter_from_left, R.anim.exit_from_left);
             fragmentTransaction.replace(R.id.fragmentHolder,new PraktikumFragment(),"PRAKTIKUM_FRAGMENT");
             fragmentTransaction.addToBackStack(null);
         } else {
