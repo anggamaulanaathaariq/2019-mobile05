@@ -168,7 +168,7 @@
         <TextView
             android:id="@+id/textView2"
             android:layout_width="71dp"
-            android:layout_height="15dp"
+            android:layout_height="17dp"
             android:layout_marginStart="8dp"
             android:text="Advanced"
             android:textColor="@color/colorBlack"
