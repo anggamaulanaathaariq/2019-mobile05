@@ -109,32 +109,46 @@
             android:id="@+id/imageView11"
             android:layout_width="42dp"
             android:layout_height="37dp"
-            android:layout_marginStart="88dp"
-            android:layout_marginTop="12dp"
+            android:layout_marginStart="140dp"
+            android:layout_marginTop="8dp"
             android:src="@drawable/usera"
             app:layout_constraintStart_toEndOf="@+id/textView5"
             app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
         <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="36dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/morelike"
+            app:layout_constraintStart_toStartOf="@+id/imageView12"
+            app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:text="+5"
+            android:textColor="@color/colorText"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView13"
+            app:layout_constraintEnd_toEndOf="@+id/imageView13"
+            app:layout_constraintHorizontal_bias="0.300"
+            app:layout_constraintStart_toEndOf="@+id/imageView12"
+            app:layout_constraintTop_toTopOf="@+id/imageView13"
+            app:layout_constraintVertical_bias="0.500" />
+
+        <ImageView
             android:id="@+id/imageView12"
             android:layout_width="39dp"
             android:layout_height="40dp"
-            android:layout_marginStart="116dp"
+            android:layout_marginStart="168dp"
             android:src="@drawable/userb"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toEndOf="@+id/textView5"
             app:layout_constraintTop_toBottomOf="@+id/textView3"
             app:layout_constraintVertical_bias="1.0" />
-
-        <ImageView
-            android:id="@+id/imageView13"
-            android:layout_width="36dp"
-            android:layout_height="37dp"
-            android:layout_marginStart="28dp"
-            android:layout_marginTop="12dp"
-            android:src="@drawable/morelike"
-            app:layout_constraintStart_toStartOf="@+id/imageView12"
-            app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
         <TextView
             android:id="@+id/textView"
@@ -194,19 +208,6 @@
             android:textColor="@color/colorBlack"
             app:layout_constraintStart_toEndOf="@+id/imageView10"
             app:layout_constraintTop_toBottomOf="@+id/textView3" />
-
-        <TextView
-            android:id="@+id/textView6"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:fontFamily="sans-serif-medium"
-            android:text="+5"
-            android:textColor="@color/colorText"
-            app:layout_constraintBottom_toBottomOf="@+id/imageView13"
-            app:layout_constraintEnd_toEndOf="@+id/imageView13"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toEndOf="@+id/imageView12"
-            app:layout_constraintTop_toTopOf="@+id/imageView13" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
