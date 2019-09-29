@@ -109,7 +109,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="36dp"
             android:layout_marginTop="16dp"
-            android:text=" Dips are one of the most effective exercises \n for forming upper body muscles or upper body muscles. \n Like other bodyweight exercises, dips are compound \n movements that train various types of muscles, \n including chest muscles (pectoral),\n shoulder muscles (deltoid), back muscles (back muscles),\n and triceps muscles (triceps)."
+            android:text=" Dips are one of the most effective exercises \n for forming upper body muscles or upper body muscles. \n Like other bodyweight exercises, dips are compound \n movements that train various types of muscles, \n including chest muscles (pectoral),\n shoulder muscles (deltoid), \n back muscles (back muscles),\n and triceps muscles (triceps)."
             android:textColor="@color/colorBlack"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
