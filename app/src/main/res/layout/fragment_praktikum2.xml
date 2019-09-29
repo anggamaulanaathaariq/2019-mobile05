@@ -151,7 +151,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="36dp"
             android:layout_marginTop="16dp"
-            android:text="Push up is a type of strength exercises that \n work to strengthen the biceps and triceps. \n Early position on his stomach with his hands on the \n right side of the body.\n Then the body is pushed upward by force of the hand. \n The position of the feet and body remains straight \n or upright."
+            android:text=" Push up is a type of strength exercises that \n work to strengthen the biceps and triceps. \n Early position on his stomach with his hands on the \n right side of the body.\n Then the body is pushed upward by force of the hand. \n The position of the feet and body remains straight \n or upright."
             android:textColor="@color/colorBlack"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
