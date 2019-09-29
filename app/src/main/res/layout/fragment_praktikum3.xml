@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".fragments.Praktikum2Fragment">
+    tools:context=".fragments.Praktikum3Fragment">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout"
@@ -38,7 +38,7 @@
             android:layout_width="167dp"
             android:layout_height="235dp"
             android:layout_marginTop="88dp"
-            android:rotation="50"
+            android:rotation="120"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.426"
             app:layout_constraintStart_toStartOf="parent"
@@ -46,7 +46,7 @@
             app:srcCompat="@drawable/haspusup" />
 
         <ImageView
-            android:id="@+id/imageView15"
+            android:id="@+id/imageView20"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="36dp"
@@ -55,20 +55,66 @@
             app:layout_constraintTop_toBottomOf="@+id/textView" />
 
         <ImageView
-            android:id="@+id/imageView16"
+            android:id="@+id/imageView21"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/stars"
-            app:layout_constraintStart_toEndOf="@+id/imageView15"
+            app:layout_constraintStart_toEndOf="@+id/imageView20"
             app:layout_constraintTop_toBottomOf="@+id/textView" />
 
         <ImageView
-            android:id="@+id/imageView17"
+            android:id="@+id/imageView23"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/stars"
-            app:layout_constraintStart_toEndOf="@+id/imageView16"
+            app:layout_constraintStart_toEndOf="@+id/imageView21"
             app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <ImageView
+            android:id="@+id/imageView24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/stars"
+            app:layout_constraintStart_toEndOf="@+id/imageView23"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <TextView
+            android:id="@+id/textView"
+            fontPath="fonts/cartoonist_kooky.ttf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="36dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Dips"
+            android:textColor="@color/colorBlack"
+            android:textSize="30sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView3"
+            tools:ignore="MissingPrefix" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="69dp"
+            android:layout_height="16dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="4dp"
+            android:text="Advanced"
+            android:textColor="@color/colorBlack"
+            app:layout_constraintStart_toEndOf="@+id/imageView24"
+            app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="16dp"
+            android:text=" Dips are one of the most effective exercises \n for forming upper body muscles or upper body muscles. \n Like other bodyweight exercises, dips are compound \n movements that train various types of muscles, \n including chest muscles (pectoral),\n shoulder muscles (deltoid), back muscles (back muscles),\n and triceps muscles (triceps)."
+            android:textColor="@color/colorBlack"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
         <ImageView
             android:id="@+id/imageView2"
@@ -80,6 +126,17 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="12dp"
+            android:text="30"
+            android:textColor="@color/colorBlack"
+            app:layout_constraintStart_toEndOf="@+id/imageView2"
+            app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
         <ImageView
             android:id="@+id/imageView10"
             android:layout_width="20dp"
@@ -88,6 +145,17 @@
             android:layout_marginTop="12dp"
             android:src="@drawable/like"
             app:layout_constraintStart_toEndOf="@+id/textView4"
+            app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="12dp"
+            android:text="100"
+            android:textColor="@color/colorBlack"
+            app:layout_constraintStart_toEndOf="@+id/imageView10"
             app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
         <ImageView
@@ -122,65 +190,6 @@
             app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
         <TextView
-            android:id="@+id/textView"
-            fontPath="fonts/cartoonist_kooky.ttf"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="36dp"
-            android:fontFamily="sans-serif-medium"
-            android:text="Pushups"
-            android:textColor="@color/colorBlack"
-            android:textSize="30sp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView3"
-            tools:ignore="MissingPrefix" />
-
-        <TextView
-            android:id="@+id/textView2"
-            android:layout_width="71dp"
-            android:layout_height="17dp"
-            android:layout_marginStart="8dp"
-            android:text="Advanced"
-            android:textColor="@color/colorBlack"
-            app:layout_constraintStart_toEndOf="@+id/imageView17"
-            app:layout_constraintTop_toBottomOf="@+id/textView" />
-
-        <TextView
-            android:id="@+id/textView3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="36dp"
-            android:layout_marginTop="16dp"
-            android:text="Push up is a type of strength exercises that \n work to strengthen the biceps and triceps. \n Early position on his stomach with his hands on the \n right side of the body.\n Then the body is pushed upward by force of the hand. \n The position of the feet and body remains straight \n or upright."
-            android:textColor="@color/colorBlack"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView2" />
-
-        <TextView
-            android:id="@+id/textView4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="4dp"
-            android:layout_marginTop="12dp"
-            android:text="9"
-            android:textColor="@color/colorBlack"
-            app:layout_constraintStart_toEndOf="@+id/imageView2"
-            app:layout_constraintTop_toBottomOf="@+id/textView3" />
-
-        <TextView
-            android:id="@+id/textView5"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
-            android:layout_marginTop="12dp"
-            android:text="154"
-            android:textColor="@color/colorBlack"
-            app:layout_constraintStart_toEndOf="@+id/imageView10"
-            app:layout_constraintTop_toBottomOf="@+id/textView3" />
-
-        <TextView
             android:id="@+id/textView6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -193,7 +202,6 @@
             app:layout_constraintStart_toEndOf="@+id/imageView12"
             app:layout_constraintTop_toTopOf="@+id/imageView13"
             app:layout_constraintVertical_bias="0.500" />
-
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
