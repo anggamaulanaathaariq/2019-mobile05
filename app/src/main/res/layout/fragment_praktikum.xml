@@ -181,7 +181,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="36dp"
             android:layout_marginTop="16dp"
-            android:text="The Handstandup push-up(press-up)-also \n called the vertical push-up (press-up) or the \n inverted push-up (press-up) also called \n commandos-is a type of push-up exercise \n where the body is positioned in a handstand \n To prepare the strength until one has built \n adequate balance"
+            android:text=" The Handstandup push-up(press-up)-also \n called the vertical push-up (press-up) or the \n inverted push-up (press-up) also called \n commandos-is a type of push-up exercise \n where the body is positioned in a handstand \n To prepare the strength until one has built \n adequate balance"
             android:textColor="@color/colorBlack"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
